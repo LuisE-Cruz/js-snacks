@@ -11,4 +11,14 @@ for (let i = 0; i < 5; i++) {
     const addNumber = parseInt(prompt('Inserisci un numero'));
     result += addNumber;
 }
-console.log("Il risultato di tutti i numeri sommati è: " + result)
+console.log("Il risultato di tutti i numeri sommati è: " + result);
+
+
+let counter = 0;
+let resultWhile = 0;
+while(counter < 5) {
+    const newNumber = parseFloat(prompt('inserisci un numero'));
+    resultWhile += newNumber;
+    counter++
+}
+console.log('La somma dei numeri sommati è: ' + resultWhile);
