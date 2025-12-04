@@ -4,7 +4,7 @@
 */
 
 let promptNumber1 = parseInt(prompt("Inserisci il primo numero"));
-let promptNumber2 = parseInt(prompt("Inserisci il secondo numero"))
+let promptNumber2 = parseInt(prompt("Inserisci il secondo numero"));
 // console.log(promptNumber1, promptNumber2);
 
 if(promptNumber1 > promptNumber2){
