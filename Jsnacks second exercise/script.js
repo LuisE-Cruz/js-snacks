@@ -7,10 +7,10 @@ JSnack 3
 
 
 // forVersion
-let result = 0
+let result = 0;
 
 for (let i = 0; i < 5; i++) {
-    const addNumber = parseInt(prompt('Inserisci un numero'));
+    const addNumber = parseFloat(prompt('Inserisci un numero'));
     result += addNumber;
 }
 console.log("Il risultato di tutti i numeri sommati è: " + result);
