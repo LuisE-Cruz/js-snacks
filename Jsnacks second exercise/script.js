@@ -5,6 +5,8 @@ JSnack 3
  Esegui questo programma in due versioni, con il for e con il while (facoltativo)
  */
 
+
+// forVersion
 let result = 0
 
 for (let i = 0; i < 5; i++) {
@@ -14,8 +16,10 @@ for (let i = 0; i < 5; i++) {
 console.log("Il risultato di tutti i numeri sommati è: " + result);
 
 
+// whileVersion
 let counter = 0;
 let resultWhile = 0;
+
 while(counter < 5) {
     const newNumber = parseFloat(prompt('inserisci un numero'));
     resultWhile += newNumber;
